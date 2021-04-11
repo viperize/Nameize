@@ -2,16 +2,13 @@
 Goes through English words finding names that are available and allowed
 
 <div align="center">
-  <img src="https://flat.badgen.net/npm/license/nameize">
-  <img src="https://flat.badgen.net/pypi/python/black">
-<br>
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![MIT License][license-shield]][license-url]
+  <br>
 </div>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 ## About Nameize
 
