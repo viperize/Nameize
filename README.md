@@ -3,6 +3,7 @@ Goes through English words finding names that are available and allowed
 
 <div align="center">
   <img src="https://flat.badgen.net/npm/license/nameize">
+  <img src="https://flat.badgen.net/pypi/python/black">
 <br>
 </div>
 
