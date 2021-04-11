@@ -41,6 +41,9 @@ This is an example of how to list things you need to use the software and how to
     python Nameize.py
   ```
   
+## Contact
+DM me on discord at viper#0010
+  
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
