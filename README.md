@@ -1,12 +1,9 @@
 # Nameize
 Goes through English words finding names that are available and allowed
 
-[![Contributors][contributors-shield]][https://github.com/viperize/rbx-Nameize/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/viperize/rbx-Nameize/network/members]
-[![Stargazers][stars-shield]][https://github.com/viperize/rbx-Nameize/stargazers]
-[![Issues][issues-shield]][https://github.com/viperize/rbx-Nameize/issues]
-[![MIT License][license-shield]][https://github.com/viperize/rbx-Nameize/blob/main/LICENSE]
-
+<div align="center">
+<img src="https://flat.badgen.net/npm/license/hypixel-api-reborn">
+</div>
 ## About Nameize
 
 Ever wanted to simply generate a username with little to no hassle? Or maybe you are tired of using the awful username generators on websites.
