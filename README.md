@@ -10,7 +10,7 @@ Goes through English words finding names that are available and allowed
 
 ## About Nameize
 
-# Installation Guide Below
+### Installation Guide Below
 Ever wanted to simply generate a username with little to no hassle? Or maybe you are tired of using the awful username generators on websites.
 Nameize is an open-source python project that goes through a list of English words, checks if they are available then checks if they are allowed on roblox.
 
