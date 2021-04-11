@@ -39,7 +39,6 @@ final_list = []
 
 def usergen(users_wanted, character_limit, minimum_limit):
     time_started = datetime.now()
-    print("running")
     global counter, finished, final_list
     checking = False
     moderated_list = []
