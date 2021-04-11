@@ -13,7 +13,7 @@ Goes through English words finding names that are available and allowed
 Ever wanted to simply generate a username with little to no hassle? Or maybe you are tired of using the awful username generators on websites.
 Nameize is an open-source python project that goes through a list of English words, checks if they are available then checks if they are allowed on roblox.
 
-The bot will give names such as: unhopefulness, unawardably, conjunctional (anything in the list of English words that isn't taken and appropriate)
+The bot will give names such as: *unhopefulness, unawardably, conjunctional* (anything in the list of English words that isn't taken and appropriate)
 
 ## Getting Started
 
