@@ -2,8 +2,13 @@
 Goes through English words finding names that are available and allowed
 
 <div align="center">
-<img src="https://flat.badgen.net/npm/license/hypixel-api-reborn">
+  <img src="https://flat.badgen.net/npm/license/nameize">
+  <img src="https://flat.badgen.net/github/last-commit/micromatch/micromatch">
+  <img src="https://flat.badgen.net/packagephobia/install/webpack">
+  
+<br>
 </div>
+
 ## About Nameize
 
 Ever wanted to simply generate a username with little to no hassle? Or maybe you are tired of using the awful username generators on websites.
