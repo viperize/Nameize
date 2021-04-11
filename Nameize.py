@@ -97,7 +97,7 @@ def usergen(users_wanted, character_limit, minimum_limit):
 wanted_users = int(input("How many users do you want? "))
 maximum_limit = int(input("Maximum character length? (3-16) "))
 minimum_limit = int(input("Minimum character length? (3-16) "))
-thread_amount = int(input("How many threads? (1-300) "))
+thread_amount = int(input("How many threads? (1-10) "))
 
 threads = list()
 for i in range(thread_amount):
