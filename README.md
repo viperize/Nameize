@@ -1,11 +1,11 @@
 # Nameize
 Goes through English words finding names that are available and allowed
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![Contributors][contributors-shield]][https://github.com/viperize/rbx-Nameize/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/viperize/rbx-Nameize/network/members]
+[![Stargazers][stars-shield]][https://github.com/viperize/rbx-Nameize/stargazers]
+[![Issues][issues-shield]][https://github.com/viperize/rbx-Nameize/issues]
+[![MIT License][license-shield]][https://github.com/viperize/rbx-Nameize/blob/main/LICENSE]
 
 ## About Nameize
 
@@ -20,19 +20,19 @@ This is an example of how to list things you need to use the software and how to
 1. Download Python 3 [https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe](https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe)
 2. Clone the repo or download the python file 
   ```sh
-  git clone https://github.com/your_username_/Project-Name.git
+    git clone https://github.com/your_username_/Project-Name.git
   ```
 3. Open command prompt (cmd) and go to the directory you downloaded it at
   ```sh
-  cd C:\Users\user\Documents\Folder
+    cd C:\Users\user\Documents\Folder
   ```
 4. Install requirements
   ```sh
-  py -m pip install -r requirements.txt
+    py -m pip install -r requirements.txt
   ```
 5. Run the program
   ```sh
-  python Nameize.py
+    python Nameize.py
   ```
   
 ## License
