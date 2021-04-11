@@ -50,7 +50,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [forks-shield]: https://img.shields.io/github/forks/viperize/nameize.svg?style=for-the-badge
 [forks-url]: https://github.com/viperize/Nameize/network/members
 [stars-shield]: https://img.shields.io/github/stars/viperize/nameize.svg?style=for-the-badge
-[stars-url]: https://github.com/viperize/Nameize/stargazers/stargazers
+[stars-url]: https://github.com/viperize/Nameize/stargazers/
 [issues-shield]: https://img.shields.io/github/issues/viperize/nameize.svg?style=for-the-badge
 [issues-url]: https://github.com/viperize/Nameize/issues
 [license-shield]: https://img.shields.io/github/license/viperize/nameize.svg?style=for-the-badge
