@@ -3,9 +3,6 @@ Goes through English words finding names that are available and allowed
 
 <div align="center">
   <img src="https://flat.badgen.net/npm/license/nameize">
-  <img src="https://flat.badgen.net/github/last-commit/viperize/Nameize">
-  <img src="https://flat.badgen.net/packagephobia/install/webpack">
-  
 <br>
 </div>
 
