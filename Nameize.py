@@ -28,6 +28,8 @@ class style():
 #--------------------------------------------------------------------------------
 # | Commands
 
+nameize = requests.get("https://gist.githubusercontent.com/viperize/81ad22f8bef40e76fc7bab176d77815e/raw/8078ee379f4394a909db09317ac4416f0c431b37/asciiViper").text
+print(style.GREEN + f"{nameize}\n----------------------------------" + style.RESET)
 r = requests.get("https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt")
 
 blacklisted_words = ['sex','shit','fag','cock','cum','homo','breast','tit','puss','weed','loli','pregnant',
@@ -54,8 +56,7 @@ def usergen(users_wanted, character_limit, minimum_limit):
         #check if exist
         payload = {"usernames": userlist}
         try:
-            nr = requests.post("https://users.roblox.com/v1/usernames/users", data=payload)
-            nr = nr.json()
+            nr = requests.post("https://users.roblox.com/v1/usernames/users", data=payload).json()
         except Exception as e:
             print(f"Err with payload: {e}")
 
@@ -73,8 +74,7 @@ def usergen(users_wanted, character_limit, minimum_limit):
         if not checking:
             checking = True
             for name in moderated_list:
-                mr = requests.get(f"https://auth.roblox.com/v2/usernames/validate?request.username={name}&request.birthday=01%2F01%2F2000&request.context=Signup")
-                mr = mr.json()
+                mr = requests.get(f"https://auth.roblox.com/v2/usernames/validate?request.username={name}&request.birthday=01%2F01%2F2000&request.context=Signup").json()
                 if not finished:
                     if mr["code"] == 0:
                         counter += 1
@@ -98,6 +98,7 @@ wanted_users = int(input("How many users do you want? "))
 maximum_limit = int(input("Maximum character length? (3-16) "))
 minimum_limit = int(input("Minimum character length? (3-16) "))
 thread_amount = int(input("How many threads? (1-10) "))
+print("----------------------------------")
 
 threads = list()
 for i in range(thread_amount):
