@@ -23,7 +23,7 @@ The bot will give names such as: *unhopefulness, unawardably, conjunctional* (an
 ### Installation
 
 This is an example of how to list things you need to use the software and how to install them.
-1. Download Python 3 [https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe](https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe)
+1. Download Python 3 (Install to PATH) [https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe](https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe)
 2. Clone the repo or download the python file 
   ```sh
     git clone https://github.com/viperize/Nameize.git
