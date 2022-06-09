@@ -1,5 +1,5 @@
 # Nameize
-Goes through English words finding names that are available and allowed
+Roblox name generator (finder, sniper or whatever), goes through a wordlist of English words and filters them to see if they are taken, then filters them to see if they are acceptable on roblox.
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -11,18 +11,17 @@ Goes through English words finding names that are available and allowed
 ## About Nameize
 
 ### Installation Guide Below
-Ever wanted to simply generate a username with little to no hassle? Or maybe you are tired of using the awful username generators on websites.
-Nameize is an open-source python project that goes through a list of English words, checks if they are available then checks if they are allowed on roblox.
 
-<img src="https://honestly.please-end.me/2gNWcL.png">
+**NOTE: Until proxy support is added you may find you are being rate limited, this is roblox, not me**
 
-The bot will give names such as: *unhopefulness, unawardably, conjunctional* (anything in the list of English words that isn't taken and appropriate)
+<img src="https://i.imgur.com/2IKVJpG.png">
+
+Examples of names the bot has generated: *unhopefulness, unawardably, conjunctional*
 
 ## Getting Started
 
 ### Installation
 
-This is an example of how to list things you need to use the software and how to install them.
 1. Download Python 3 (Install to PATH) [https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe](https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe)
 2. Clone the repo or download the python file 
   ```sh
@@ -30,7 +29,7 @@ This is an example of how to list things you need to use the software and how to
   ```
 3. Open command prompt (cmd) and go to the directory you downloaded it at
   ```sh
-    cd C:\Users\user\Documents\Folder
+    cd C:\Users\youruserhere\Documents\Folder
   ```
 4. Install requirements
   ```sh
@@ -40,7 +39,15 @@ This is an example of how to list things you need to use the software and how to
   ```sh
     python Nameize.py
   ```
+Settings are then configurable, for now it is recommended you have 1 thread and a 1300ms payload delay
+
+### Using Discord Webhooks
+1. Right click a discord channel and go to "Integrations"
+2. Click "View Webhooks" and click "New Webhook"
+3. Click "Copy Webhook URL"
+4. Paste this webhook into the "webhook.txt" file in the **SAME** directory as the main program and save
   
+ 
 ## Contact
 DM me on discord at viper#0010
   
