@@ -42,7 +42,7 @@ try:
     name_list = ast.literal_eval(nl_req)
     shuffle(name_list)
 except:
-    print(style.RED + f"Namelist was unable to load, program will not function correctly" + style.RESET)
+    print(style.RED + "Namelist was unable to load, program will not function correctly" + style.RESET)
 
 counter, finished, final_list = 0, False, []
 
@@ -89,11 +89,10 @@ def check_moderation(moderated_list):
 
 def usergen(users_wanted, thread_num):
     global counter, finished, final_list
-    checking = False
     moderated_list = []
     thread_namelist = chunked_list[thread_num]
     iter_num = 0
-    
+
     while counter < users_wanted:
         #add words
         userlist = thread_namelist[iter_num:iter_num+40]
@@ -117,7 +116,7 @@ def usergen(users_wanted, thread_num):
 
         listbx = []
         try:
-            for name in nr["data"]: 
+            for name in nr["data"]:
                 listbx.append(name["requestedUsername"])
             moderated_list = [x for x in userlist if x not in listbx]
         except:
