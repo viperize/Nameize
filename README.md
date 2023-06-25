@@ -47,10 +47,6 @@ Settings are then configurable, for now it is recommended you have 1 thread and 
 3. Click "Copy Webhook URL"
 4. Paste this webhook into the "webhook.txt" file in the **SAME** directory as the main program and save
   
- 
-## Contact
-DM me on discord at viper#0010
-  
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
